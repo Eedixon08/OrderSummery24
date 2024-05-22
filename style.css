@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    min-height: 100vh;
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    /* width: 1440px; */
+    background-size: 100%;
+    background-position: 6% 0%;
+    /* background-position: u; */
+    background-repeat: no-repeat;
+    border: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background-color: white;
+    max-width: 315px;
+    /* padding: 1rem; */
+    border-radius: .5rem;
+    font-family: "Figtree", sans-serif;
+    margin-bottom: 1rem;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+#cardImg {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: .5rem .5rem 0 0;
+}
+
+.cardContent {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 20px;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    color: hsl(223, 47%, 23%);
+}
+
+.infoOrder {
+    display: flex;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-bottom: 1rem;
+    word-spacing: 1px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.AnnPlan {
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+
+span {
+    font-size: 12px;
+    padding-left: .7rem;
+}
+
+.imgMusic {
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.AnnPlan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: .5rem;
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
+    padding-left: 1rem;
+    padding-right: .7rem;
+}
+
+.infoPlan {
+    padding-right: 3.7rem;
+}
+
+.AP {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+.money {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.change {
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.change:hover {
+    color: hsl(224, 23%, 55%);
+    transition-duration: 500ms;
+}
+
+
+button {
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    padding: 0.25rem 0.45rem;
+    border-radius: .3rem;
+    font-weight: 900;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    border-radius: .5rem;
+    letter-spacing: .7px;
+    box-shadow: 1.6px 10px 6px rgb(196, 196, 219);
+}
+
+button:hover {
+    background-color: hsl(224, 23%, 55%);
+    transition-duration: 500ms;
+}
+
+.cancelO {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    font-size: 11px;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    padding-bottom: 2rem;
+    padding-top: 1.2rem;
+    font-weight: 900;
+}
+
+.cancelO:hover {
+    color: hsl(223, 47%, 23%);
+    transition-duration: 500ms;
+}
